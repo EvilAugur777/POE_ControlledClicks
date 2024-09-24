@@ -92,7 +92,7 @@ AutoClick:
     ; Проверяем, совпадает ли текущий цвет с целевым и зажатие ЛКМ
     if (GetKeyState("LButton", "P") && currentColor = DesiredColor)
     {
-        ToolTip, Color matched! Stopping clicks...
+        ToolTip, Search found! Stopping clicks...
         toggle := false  ; Останавливаем автоклики
         SetTimer, AutoClick, Off  ; Отключаем таймер
         Sleep, 1500
