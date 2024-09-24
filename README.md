@@ -30,6 +30,7 @@ Assumed usage scenario:
 
 ![image](https://github.com/user-attachments/assets/ab14da5a-0703-4cd1-a7c4-7fc205fc978a)
 
+9) Remove the cursor from the object, release the LMB
 
 Script behavior:
 When the left mouse button is held down, the script will generate clicks until the frame becomes active again (corresponding to the search results). After finding the search results, the left mouse button will remain held down, and in POE, the click will be confirmed by releasing the left mouse button. To avoid an extra click on the item, release the left mouse button next to the item. Automatic release is not implemented intentionally to avoid violating game rules by performing a single action.
@@ -56,6 +57,8 @@ When the left mouse button is held down, the script will generate clicks until t
 8) Взять нужную сферу с зажатым Shift, зажать ЛКМ
 
 ![image](https://github.com/user-attachments/assets/5f75886f-a4cb-4b3d-95e4-2fb4215bacb3)
+
+9) Убрать курсор с предмета, отпустить ЛКМ
 
 
 Поведение скрипта:
